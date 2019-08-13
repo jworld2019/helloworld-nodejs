@@ -5,7 +5,7 @@ pipeline {
       agent { label 'nodejs-app' }
       steps {
         echo 'Hello World!'   
-        sh 'java -version'
+        sh 'node --version'
       }
     }
   }
